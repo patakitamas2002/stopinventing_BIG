@@ -1,1 +1,1 @@
-# StopInventing-BIG: A StopInventing csapat k‚z¡r st felismer‹ nagyprojektje
+# StopInventing-BIG: A StopInventing csapat kézírást felismerő nagyprojektje
