@@ -9,3 +9,12 @@ az oldal változtatja az elrendezését. A weboldal középső részén megjelen
 szövegdoboz, amelybe csak egérrel vagy digitális tollal (S Pen vagy Apple Pencil) lehet
 írni. A felhasználó szövegbevitele közben a gépi tanuló algoritmus megpróbálja kitalálni
 kézírása alapján a megfelelő betűket, majd valós időben megjeleníti a felismert szöveget alul.
+
+## Használati esetek
+
+A rendzser a következő funkciókat látja el:
+
+- Ízléses főoldal
+- Fejlett kézírásfelismerő algoritmus PHP-ban
+- Kézírási minták lementése MySQL adatbázisba
+- OPCIONÁLIS: Apple Pencil és S Pen támogatása
