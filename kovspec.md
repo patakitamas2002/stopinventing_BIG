@@ -26,3 +26,8 @@ Samsung mobilokon és iPad-eken tervezett az S Pen és az Apple Pencil támogat�
 
 
 ## Követelménylista
+
+K1 (Bejelentkezési felület): A felhasználó a regisztráció során megadott felhasználónévvel és jelszóval tud belépni.
+K2 (Regisztráció): A felhasználó kötelezően meg kell adja a felhasználónevét, email címet, és jelszavát. A profilkép feltöltése opcionális. A jelszó kódolva kerül fel az adatbázisra. A regisztráció hiányos vagy nem megfelelő kitöltése esetén figyelmezteti az oldal.
+K4 (Felhasználó modifikáció): A felhasználó tudja változtatni felhasználónevét és tud feltölteni vagy változtatni profilképet is.
+K5 (Jelszó módosítása): A jelszó módosításához szükséges megadni a régi jelszavát, majd az új jelszót kétszer is.
