@@ -18,3 +18,5 @@ A rendzser a következő funkciókat látja el:
 - Fejlett kézírásfelismerő algoritmus PHP-ban
 - Kézírási minták lementése MySQL adatbázisba
 - OPCIONÁLIS: Apple Pencil és S Pen támogatása
+
+![Handw_MNIST](https://github.com/patakitamas2002/stopinventing_BIG/blob/main/Handw_MNIST.png)
