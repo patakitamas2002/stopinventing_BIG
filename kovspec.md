@@ -1,6 +1,6 @@
-# Codename StopInventing_BIG - kézírás-felismerő webalkalmazás
+# Illegible Illegal Writing (IIW) - kézírás-felismerő webalkalmazás
 
-A név még elbírálás alatt van!
+A név Illegible Illegal Writing (IIW)
 
 ## Bevezető, jelenlegi helyzet
 
