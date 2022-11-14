@@ -42,4 +42,6 @@ A rendzser a következő funkciókat látja el:
 
 ## Forgatókönyv
 
+Szereplők: A weboldalnak 2 szereplője van. Az első szereplő az maga a webböngésző amin fut az oldal. Ezzel együtt kezeli az oldal funkcióit. A második szereplő meg a felhasználók akik használják az oldalt.
 
+A felhasználó meg tudja látogatni az oldalt vendégként, de így nem tud letölteni, meg fel. A regisztráció után vagy a bejelentkezés után már elérhető a feltöltés. Az oldalon support segítségét lehet kérni, ha baj van.
