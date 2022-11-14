@@ -17,9 +17,12 @@ reszponzív weboldalként. A weboldal követné a mai letisztult dizájntrendeke
 (hogy mobilon is könnyen kezelhető legyen), talpatlan betűtípus és ízléses felső sáv (mobilon hamburger menübe rejtve).
 Samsung mobilokon és iPad-eken tervezett az S Pen és az Apple Pencil támogatása is.
 
-## Jogi szabályozások
+## Jogi szabályok
 
-
+A webalkalmazás a felhasználó saját kézírását fogja tárolni egy adatbázisban/felkerül az oldalra.
+Magyarán a vonatkozikrá az a jogszabáj ami az olyan képekre is amit a rajtaszereplő ember engedéje nélkül raknak ki az internetre.
+Amikor regisztrál a felhasználó akkor bele egyezik abba, hogy a kézírását felhasználjuk.
+Így reméljük hogy a Személység jogok sértését elkerüljük.
 
 ## Funkciók
 
