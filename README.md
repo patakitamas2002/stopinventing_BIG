@@ -1,6 +1,6 @@
 # Illegible Illegal Writing (IIW): A StopInventing csapat kézírást felismerő nagyprojektje
 
-Az Illegible Illegal Writing (IIW) progresszív webalkalmazás a kézírás felísmerésére lett létrehozva!
+Az Illegible Illegal Writing (IIW) webalkalmazás a kézírás felísmerésére lett létrehozva!
 
 Jó szórakozást!! :)
 
