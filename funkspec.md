@@ -24,6 +24,7 @@ A rendzser a következő funkciókat látja el:
 ## Követelménylista
 
 + K1 (Jogosultság): Bejelentkezési felület: 
+  >> A felhasználó az email címe és a jelszava segítségével bejelentkezhet. Ha a megadott email cím vagy jelszó nem megfelelő, akkor a felhasználó hibaüzenetet kap.
 + K2 (Jogosultság): Regisztráció:
 + K3 (Modifikáció): Felhasználó kezelés:
 + K4 (Funkció): Kézírás feltöltése:
