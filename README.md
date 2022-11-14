@@ -4,6 +4,6 @@ Az Illegible Illegal Writing (IIW) webalkalmazás a kézírás felísmerésére 
 
 Jó szórakozást!! :)
 
-Crated by: Pataki Tamás, Tabajdi Imre, Birinyi Gergő, Göröcs Lajos
+Created by: Pataki Tamás, Tabajdi Imre, Birinyi Gergő, Göröcs Lajos
 
 Copyright© Eszterházy Károly Katolikus Egyetem (EKKE).
