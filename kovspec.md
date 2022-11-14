@@ -26,7 +26,10 @@ Amikor regisztrál a felhasználó akkor bele egyezik abba, hogy a kézírását
 
 ## Funkciók
 
-
+- Feltöltött kép alapján felismerés
+- Rajzoló ablakból felismerés
+- A végeredmény megtekintése/letöltése
+- Saját felhasználói kezelés
 
 ## Követelménylista
 
