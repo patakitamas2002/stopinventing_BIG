@@ -24,12 +24,17 @@ A rendzser a következő funkciókat látja el:
 ## Követelménylista
 
 + K1 (Jogosultság): Bejelentkezési felület: 
-  >> A felhasználó az email címe és a jelszava segítségével bejelentkezhet. Ha a megadott email cím vagy jelszó nem megfelelő, akkor a felhasználó hibaüzenetet kap.
+  > A felhasználó az email címe és a jelszava segítségével bejelentkezhet. Ha a megadott email cím vagy jelszó nem megfelelő, akkor a felhasználó hibaüzenetet kap.
 + K2 (Jogosultság): Regisztráció:
+  > A felhasználó a felhasználói nevének, email címének, jelszavának megadásával és a jogiszabályok elfogadásával regisztrálja magát. A jelszó tárolása kódolva történik az adatbázisban. Ha valamelyik adat ezek közül hiányzik vagy nem felel meg a követelményeknek, akkor a rendszer értesíti erről a felhasználót.
 + K3 (Modifikáció): Felhasználó kezelés:
+  > A felhasználó módosítani tudja saját elhasználónevét. Ehhez szükséges a régi és az új elhasználók megadása, az új megerősítése, alamint a felhasználó elszavának megadása. A felhasználó módosítani tudja saját jelszavát. Ehhez szükséges a régi és az új jelszavának megadása, valamint az új megerősítése. Ha a felhasználó elfelejtette a felhasználónevét, vagy jelszavát akkor ezzel az opcióval a supporthoz tud fordulni.
 + K4 (Funkció): Kézírás feltöltése:
+  > A felhasználónak a főoldalon lesz lehetősége feltölteni/Beszkennelni a kézírást.
 + K5 (Funkció): Végeredmény megtekintés:
+  > A felhasználónak ugyan úgy a főoldalon lesz lehetősége az eredmény megtekintésére és annak a kezelésére mint pl, Másolás, Letöltés,...
 + K6 (Felület): Fordító:
+  > A webalkalmazásnak a főoldalán van a kézírás fordító. Nincsenek egyébb funkciók, csak a felhasználói felület.
 
 ## Képernyőterv
 
