@@ -20,3 +20,20 @@ A rendzser a következő funkciókat látja el:
 - OPCIONÁLIS: Apple Pencil és S Pen támogatása
 
 ![Handw_MNIST](https://github.com/patakitamas2002/stopinventing_BIG/blob/main/Handw_MNIST.png)
+
+## Követelménylista
+
++ K1 (Jogosultság): Bejelentkezési felület: 
++ K2 (Jogosultság): Regisztráció:
++ K3 (Modifikáció): Felhasználó kezelés:
++ K4 (Funkció): Kézírás feltöltése:
++ K5 (Funkció): Végeredmény megtekintés:
++ K6 (Felület): Fordító:
+
+## Képernyőterv
+
+
+
+## Forgatókönyv
+
+
