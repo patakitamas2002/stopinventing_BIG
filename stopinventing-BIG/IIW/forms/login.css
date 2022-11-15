@@ -1,0 +1,56 @@
+input {
+    display: block;
+    box-sizing: border-box;
+}
+     
+button{   
+    height: 34px;
+    margin: 0 auto;
+    background-color: turquoise;
+    border: 2px solid black;
+    
+}
+
+a{
+    color: black;
+}
+
+.nono{
+    font-size: medium;
+    color:maroon;
+}
+
+.text{
+    height: 34px;
+    width: 300px;
+}
+
+.btn{
+    height: 34px;
+    margin: 0 auto;
+    background-color:chartreuse;
+    border: 2px solid black;
+}
+
+html,body {
+    height:100%;
+    width:100%;
+    margin:0;
+}
+body {
+    display:flex;
+    background-image: url("backg.jpg");
+}
+
+p{
+    color: white;
+    font-size: large;
+}
+
+form {
+    margin:auto;
+    padding: 50px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color:royalblue;
+}

@@ -1,0 +1,26 @@
+table{
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 25px;
+    background-color: azure;
+    text-align: center;
+}
+
+.post{
+    width: 50%;
+}
+
+.postrow{
+    text-align: center;
+}
+
+body{
+    background-color: #002540;
+    margin: auto;
+}
+
+h1{
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+}
