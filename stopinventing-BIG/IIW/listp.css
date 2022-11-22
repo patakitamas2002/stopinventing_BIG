@@ -1,0 +1,16 @@
+table{
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 25px;
+    background-color: azure;
+    text-align: center;
+}
+
+td, th, tr{
+    border: 2px solid black;
+}
+
+body{
+    background-color: #002540;
+    margin: auto;
+}
