@@ -1,0 +1,8 @@
+{
+    "name": "Illegible Illegal Writing",
+    "short_name": "IIW",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#002540",
+    "description": "Kézírás-felismerő progresszív webalkalmazás"
+}
