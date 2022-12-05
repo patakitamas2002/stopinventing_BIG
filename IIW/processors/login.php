@@ -17,7 +17,10 @@
     }
     else {
         session_start();
+        $_SESSION['kerdesek'] = 12;
+        $_SESSION['helyes'] = 0;
         $_SESSION['id']=$loggedInUser[0];
+        $_SESSION['pfp']=$loggedInUser[4];
         $_SESSION['username']=$loggedInUser[1];
         header("Location: ../index.php");
     }
