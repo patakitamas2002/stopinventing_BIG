@@ -19,16 +19,17 @@
     </ul>
       <?php
       if(isset($_SESSION["id"])){
-        require "mydbms.php";
+        //session_start();
+        /*require "mydbms.php";
         $con = connect('mnist_stopinventing', 'root','');
         $userId = $_SESSION['id'];
-        $query = "SELECT username,pfp FROM users WHERE userId = '$userId'";
+        $query = "SELECT username,pfp FROM users WHERE id = '$userId'";
         $userdata = mysqli_query($con, $query);
-        $userdata = mysqli_fetch_array($userdata);
-        $path = './imgs/'.$userdata[0].'/'.$userdata[1];
-        if($userdata[1] == ""){
+        $userdata = mysqli_fetch_array($userdata);*/
+        $path = './imgs/'.$_SESSION['username'].'/'.$_SESSION['pfp'];
+        /*if($userdata[1] == ""){
           $path = './default_pfp/'.$userdata[2].'.jpg';
-        }
+        }*/
         echo '
         <ul class="nav navbar-nav navbar-right">
                  <li class="dropdown">
@@ -37,7 +38,7 @@
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="logout.php">Kijelentkezés<i class="glyphicon glyphicon-log-out"></i></a></li>
-          <li><a href="index.php?page=-10">Profilom módosítása</a></li>
+          <li><a href="forms/profile.php">Profilom módosítása</a></li>
         </ul>
       </li>
       </ul>

@@ -25,13 +25,17 @@
 </head>
 <body>
     <?php
-        session_start();
+        
         $_SESSION['kerdesek'] = 12;
         $_SESSION['helyes'] = 0;
     ?>
     <div class="menu">
         
-        <?php require "menu.php"; ?>
+        <?php 
+if(!isset($_SESSION['id'])){
+    session_start();
+}
+require 'menu.php'; ?>
     </div>
 <div class="footer">
 asd

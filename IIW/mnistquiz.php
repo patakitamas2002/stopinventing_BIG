@@ -42,8 +42,13 @@
 </head>
 <body>
 <?php
-
-require 'mydbms.php';
+if(!isset($_SESSION['id'])){
+    session_start();
+}
+require 'menu.php';
+?>
+<?php
+    require 'mydbms.php';
     if (isset($_GET['number'])) {
         $ertek = intval($_GET['number']);
         if ($ertek == $_SESSION['number']) {
@@ -56,11 +61,6 @@ require 'mydbms.php';
         }
     
 }
-
-if(!isset($_SESSION['username'])){
-    $_SESSION['username'] = "Guest";
-}
-
 $random = rand(0, 20000);
 $con = connect('mnist_stopinventing', 'root','');
 $query = "SELECT filename,number,actualvalue FROM stat WHERE id = $random";
@@ -72,15 +72,15 @@ if($_SESSION['kerdesek']<=0){
     $user = $_SESSION['username'];
     $helyes = $_SESSION['helyes'];
     /*$query = "INSERT INTO rangsor SET username = ' ".$_SESSION["username"]." ', score =' ".$helyes." ' ";*/
-    $query2 ="INSERT INTO rangsor(username,score) values('".$user."','".$helyes."')";
-    $result = mysqli_query($con,$query2);
+    if($_SESSION['id'] != ""){
+        $query2 ="INSERT INTO rangsor(username,score) values('".$user."','".$helyes."')";
+        $result = mysqli_query($con,$query2);
+    }
     header("Location: index.php");
 }
 ?>
 
-<?php
-require 'menu.php';
-?>
+
 <div class="guessPart">
 <p id="feher">Maradt kérdések száma: <?php echo $_SESSION['kerdesek']?></p>
 <p id="feher">Helyes válaszok száma: <?php echo $_SESSION['helyes']?></p>

@@ -15,9 +15,14 @@
     </style>
 </head>
 <body>
+<div class="menu">
     <?php
-    require 'menu.php';
+if(!isset($_SESSION['id'])){
+    session_start();
+}
+require 'menu.php';
 ?>
+</div>
     <table>
         <tr>
         <th>Helyezés</th>
