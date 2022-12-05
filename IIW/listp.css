@@ -6,21 +6,11 @@ table{
     text-align: center;
 }
 
-.post{
-    width: 50%;
-}
-
-.postrow{
-    text-align: center;
+td, th, tr{
+    border: 2px solid black;
 }
 
 body{
     background-color: #002540;
     margin: auto;
-}
-
-h1{
-    margin: auto;
-    text-align: center;
-    font-size: 50px;
 }
