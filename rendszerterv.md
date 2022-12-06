@@ -19,7 +19,25 @@
   + A GDPR-nek való megfelelés
 
 # Funkcionális terv
+
+Az oldal célja egy ízléses, egyszerűen használható kézírásfelismerő szoftver legyen.
+Ezt azzal éri el, hogy a beviteli preifériából fogja a jelet, feldolgozza egy komplex MI algoritmussal
+és másolható szöveg formájában visszadobja a felhasználónak.
+A tanulásért két dolog felelős: a tanuló algoritmus és az operáció agya, az adatbázis, ami a kézírást 
+képek formájában eltárolja.
+Progresszív webalkalamás mivolta miatt szinte mindenre elérhető, amire telepítve van webböngésző és rendelkezik internetkapcsolattal.
+A weboldal képes skálázni magát Bootstrap segítségével, így minden képernyőn jól néz ki.
+
 # Fizikai környezet
+
+-PHP (backend)
+-JavaScript (front-end)
+-CSS (front-end)
+-HTML (front-end)
+
+Eszközök, amiket használtunk:
+
+-Bootstrap (reszponzivitás)
 # Adatbázisterv
 
 ![image](https://user-images.githubusercontent.com/113434354/205898315-8654ae5f-10cf-4c5f-81b0-49957bdbdd34.png)
