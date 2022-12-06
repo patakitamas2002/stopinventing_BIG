@@ -29,4 +29,17 @@
 A Webes felület főként HTML, CSS, és Javascript nyelven fog készülni. Külön fájlokra tervezzük osztani amennyire csak lehet, a könnyebb változtatások, fejlesztések érdekében. Adatbázis kapcsolat segítségével kérdezzük le az MNIST képeket és annak válaszait, a quiz befejezése után, ha a felhasználó be van jelentkezve, feltöltjük a helyes pontszámok számát és a felhasználónevet egy ranglistára. A kliens letudja a ranglistát kérdezni és megjeleníteni rendezve.
 
 # Teszt terv
+A tesztelések célja a rendszer és komponensei funkcionalitásának teljes vizsgálata, ellenőrzése, a rendszer által megvalósított üzleti szolgáltatások verifikálása.
+
+Alfa teszt:
+A login és a regisztráció sikeres. Menüpontok közti váltások esetén nincs véletlen kijelentkeztetés.
+
+Béta teszt:
+Bizonyos hibák előléptek a quiz esetén, mert nem csökkentette a hátra maradt kérédsek számát, és nem növelte a helyes válaszok számát helyes válasz esetén.
+Adatbázisból lekérdezhető a rangsor, mely pontok szerint rendezi a rangot. Képes egyszerre több klienst is kiszolgálni.
+
+Végleges teszt:
+Quiz esetén tökéletesen működnek a gombok, a number input ellenőrzi, hogy az üres-e. Ha igen, figyelmezteti a felhasználót, hogy adjon meg egy számot. A Clr gomb törli a number input tartalmát, a random gomb meg random generál egy számot
+
 # Telepítési terv
+Ez egy webes alkalmazás. Csak egy böngésző szükséges hozzá, nem kell külsőleges szoftver a használathoz.
