@@ -1,4 +1,5 @@
 | Tesztelő: Tabajdi József Imre | Időpont: 2022.12.06 10:33 | Böngésző: Brave (chromium based) |
+|--------------------------|---------------------------|-------------------------|
 
 | Időpont | Teszt                | Eredmény | Megjegyzés                                                           |
 |:-------:|----------------------|----------|----------------------------------------------------------------------|
@@ -20,7 +21,5 @@
 | 10:25   | 8-as gomb            | Sikeres  | Az 8-as gomb lenyomásával 8 fog bekerülni a rendszerbe értékül.      |
 | 10:25   | 9-es gomb            | Sikeres  | Az 9-es gomb lenyomásával 9 fog bekerülni a rendszerbe értékül.      |
 | 10:25   | Clr(clear) gomb      | Sikeres  | Az Clr gomb lenyomásával a number inputban lévő érték törlődik.      |
-| 10:25   | Küldés(send) gomb    | Sikeres  | A send gomb lenyomásával a number inputot ellenőrzi, hogy a válasz   |
-          |                      |          | helyes-e. Üres input esetén figyelmezteti a usert, hogy kötelező     |
-          |                      |          | számot megadni.                                                      |
+| 10:25   | Küldés(send) gomb    | Sikeres  | A send gomb lenyomásával a number inputot ellenőrzi, hogy a válasz  helyes-e. Üres input esetén figyelmezteti a usert, hogy kötelező  számot megadni. |                                                     
 | 10:28   | Kijelentkezés        | Sikeres  | A kijelentkezés menüpont megnyomására kijelentkezünk az oldalról.    |
