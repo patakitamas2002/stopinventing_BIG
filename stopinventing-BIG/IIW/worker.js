@@ -1,20 +1,15 @@
-self.addEventListener("telepit", function(event)
-{
+self.addEventListener("install", function(event) {
 	event.waitUntil(
-		caches.open("pwa").then(function(cache)
-        {
-			return cache.addAll(
-            [
-				"/",
-				"/style.css",
-				"/script.js",
-			])
+		caches.open("pwa").then(function(cache) {
+			return cache.addAll([
+				"style.css",
+				"script.js",
+			]);
 		})
-	)
+	);
 });
 
-self.addEventListener("fetch", function(event)
-{
+self.addEventListener("fetch", function(event) {
 	event.respondWith(
 		caches.open("pwa").then(function(cache) {
 			return cache.match(event.request).then(function(response) {
@@ -27,5 +22,5 @@ self.addEventListener("fetch", function(event)
 				return fetch(event.request);
 			});
 		})
-	)
+	);
 });

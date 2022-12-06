@@ -1,71 +1,60 @@
-
 let installEvent = null;
 let installButton = document.getElementById("install");
 let enableButton = document.getElementById("enable");
 
-enableButton.addEventListener("click", function()
+if (enableButton)
 {
-    this.disabled = true;
-    startPwa(true);
-});
-
-if(localStorage["pwa-enabled"])
-{
-    startPwa()
+	enableButton.addEventListener("click", function () {
+		this.disabled = true;
+		startPwa(true);
+	})
 }
 
-function startPwa(firstStart)
-{
-    localStorage["pwa-enabled"] = true;
+if(localStorage["pwa-enabled"]) {
+	startPwa();
+}
 
-    if(firstStart)
-    {
-        location.reload()
-    }
+function startPwa(firstStart) {
+	localStorage["pwa-enabled"] = true;
 
-    window.addEventListener("load", () =>
-    {
-        navigator.serviceWorker.register("/worker.js")
-        .then(registration =>
-        {
-            console.log("Új munkás regisztrálva.", registration);
-            enableButton.parentNode.remove();
-        })
-        .catch(err =>
-        {
-            console.error("A regisztráció nem sikerült:", err);
-        })
-    });
+	if(firstStart) {
+		location.reload();
+	}
 
-    window.addEventListener("beforeinstallprompt", (e) =>
-    {
-        e.preventDefault();
-        console.log("Telepítés...");
-        installEvent = e;
-        document.getElementById("telepit").style.display = "initial";
-    });
+	window.addEventListener("load", () => {
+		navigator.serviceWorker.register("worker.js")
+		.then(registration => {
+			console.log("Szolgáltatáskezelő regisztrálva.", registration);
+			enableButton.parentNode.remove();
+		})
+		.catch(err => {
+			console.error("Registration failed:", err);
+		});
+	});
 
-    setTimeout(cacheLinks, 500);
+	window.addEventListener("beforeinstallprompt", (e) => {
+		e.preventDefault();
+		console.log("Készen áll a telepítésre...");
+		installEvent = e;
+		document.getElementById("install").style.display = "initial";
+	});
 
-    function cacheLinks()
-    {
-        caches.open("pwa").then(function(cache)
-        {
-            let linksFound = [];
-            document.querySelectorAll("a").forEach(function(a)
-            {
-                linksFound.push(a.href);
-            });
+	setTimeout(cacheLinks, 500);
 
-            cache.addAll(linksFound);
-        })
-    }
+	function cacheLinks() {
+		caches.open("pwa").then(function(cache) {
+			let linksFound = [];
+			document.querySelectorAll("a").forEach(function(a) {
+				linksFound.push(a.href);
+			});
 
-    if(installButton)
-    {
-        installButton.addEventListener("click", function()
-        {
-            installEvent.prompt();
-        })
-    }
+			cache.addAll(linksFound);
+		});
+	}
+    
+	if(installButton) {
+		installButton.addEventListener("click", function() {
+			installEvent.prompt();
+		});
+	}
 }

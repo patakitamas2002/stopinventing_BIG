@@ -1,8 +1,10 @@
 {
     "name": "Illegible Illegal Writing",
     "short_name": "IIW",
-    "start_url": ".",
     "display": "standalone",
     "background_color": "#002540",
-    "description": "Kézírás-felismerő progresszív webalkalmazás"
+    "description": "Kézírás-felismerő progresszív webalkalmazás",
+    "start_url": "/?source=pwa",
+	"scope": "/",
+	"theme_color": "#3367D6"
 }

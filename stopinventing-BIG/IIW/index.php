@@ -1,22 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <link rel="stylesheet" href="style.css"/>
 <link rel="stylesheet"  
     href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">   
     <style>   
-    table {  
-        border-collapse: collapse;  
-    }  
-        .inline{   
+        table
+        {  
+            border-collapse: collapse;  
+        }  
+        .inline
+        {   
             display: inline-block;   
-               
+                
             margin: 20px 0px;   
         }   
-         
-        input, button{   
+            
+        input, button
+        {   
             height: 34px;   
-        }  </style>
-<link rel="stylesheet" href="manifest.webmanifest"/>
+        }
+    </style>
+<link rel="manifest" href="manifest.webmanifest"/>
 <head>
     <meta charset="UTF-8">
     <title>Főoldal</title>
@@ -35,12 +39,14 @@
     <div>
         <p>Szeretné mobilon is használni az alkalmazást?
             Telepítse az alábbi gombbal a készülékére!
+            <button id="enable">Telepítés engedélyezése</button>
         </p>
     </div>
-    <button id="telepit">Alkalmazás telepítése</button>
+
+    <button id="install">Alkalmazás telepítése</button>
+    <div class="footer">
+        ©2022 Eszterházy Károly Katolikus Egyetem. Minden jog fenntartva.
+    </div>
     <script src="script.js"></script>
-<div class="footer">
-asd
-</div>
 </body>
 </html>
